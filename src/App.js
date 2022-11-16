@@ -5,7 +5,7 @@ import location from './location.png';
 import phone from './phone.png';
 import email from './email.png';
 import web from './web.png';
-import logo from './logo1.png';
+import logo from './logo3.png';
 
 function App() {
 
@@ -47,6 +47,10 @@ function App() {
      backgroundImage: `url(${process.env.PUBLIC_URL + '/images/fluid.jpg'})`,
    };
   
+   const testing = {
+     backgroundImage: `url(${process.env.PUBLIC_URL + '/images/testing.png'})`,
+   };
+  
   
   return (
     <div className="App">
@@ -56,7 +60,7 @@ function App() {
       >
         <div class="container">
           <a class="navbar-brand" href="index.html">
-            <img src={logo}   />
+            <img src={logo} />
           </a>
           <button
             class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle"
@@ -92,6 +96,11 @@ function App() {
               <li class="nav-item">
                 <a href="#contact-section" class="nav-link">
                   <span>Contact</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#Career-section" class="nav-link">
+                  <span>Career </span>
                 </a>
               </li>
             </ul>
@@ -325,6 +334,140 @@ function App() {
                 </div>
               </div>
             </div>
+            <div class="col-md-4 d-flex " width="100%">
+              <div class="blog-entry justify-content-end">
+                <a
+                  class="block-20"
+                  style={testing}
+                  // style="background-image: url('images/image_1.jpg');"
+                ></a>
+                <div class="text mt-3 float-right d-block">
+                  <h3 class="heading">
+                    <a>CAE Software Training</a>
+                  </h3>
+                  <p>
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="ftco-section ftco-no-pb" id="Career-section">
+        <div class="container">
+          <div class="row justify-content-center pb-5">
+            <div class="col-md-10 heading-section text-center ">
+              <h1 class="big big-2">Career </h1>
+              <h2 class="mb-4">Career</h2>
+              <p>Vacancy</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="resume-wrap ">
+                <span class="date">1 sr CAE Engineer- 3 to 10 years</span>
+                <h2>CAE Engineer</h2>
+                <span class="position">Click bellow </span>
+                <p class="mb-0">
+                  <a
+                    target="blank"
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSfkBJeETCZ9xjR2mb1BwhXdcrMYNmST95bT2y58PplVC5OAcw/viewform?usp=sf_link"
+                    class="btn btn-primary py-3 px-5"
+                  >
+                    Enquire now
+                  </a>
+                </p>
+              </div>
+              <div class="resume-wrap ">
+                <span class="date">2-CAE Engineer 0 -3 years</span>
+                <h2>CAE Engineer</h2>
+                <span class="position">Click bellow</span>
+                <p class="mt-4">
+                  <a
+                    target="blank"
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSfkBJeETCZ9xjR2mb1BwhXdcrMYNmST95bT2y58PplVC5OAcw/viewform?usp=sf_link
+"
+                    class="btn btn-primary py-3 px-5"
+                  >
+                    Enquire now
+                  </a>
+                </p>
+              </div>
+              <div class="resume-wrap ">
+                <span class="date">Analyst </span>
+                <h2>CAE Engineer</h2>
+                <span class="position">Click bellow</span>
+                <p class="mt-4">
+                  <a
+                    target="blank"
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSfkBJeETCZ9xjR2mb1BwhXdcrMYNmST95bT2y58PplVC5OAcw/viewform?usp=sf_link
+
+"
+                    class="btn btn-primary py-3 px-5"
+                  >
+                    Enquire now
+                  </a>
+                </p>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="resume-wrap ">
+                <span class="date">Graduate engineering Trainee </span>
+                <h2> Engineering</h2>
+                <span class="position">Click bellow</span>
+                <p class="mt-4">
+                  <a
+                    target="blank"
+                    href="https://docs.google.com/forms/d/e/1FAIpQLScWdl-6GzyZF5KgIYYSQGvinQ0XlD0f0a-QbyJcTTXWqFusjA/viewform?usp=sf_link
+
+
+"
+                    class="btn btn-primary py-3 px-5"
+                  >
+                    Enquire now
+                  </a>
+                </p>
+              </div>{' '}
+              <div class="resume-wrap ">
+                <span class="date">cad engineer </span>
+                <h2>CAD Engineer</h2>
+                <span class="position">Click bellow</span>
+                <p class="mt-4">
+                  <a
+                    target="blank"
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSfkBJeETCZ9xjR2mb1BwhXdcrMYNmST95bT2y58PplVC5OAcw/viewform?usp=sf_link
+
+"
+                    class="btn btn-primary py-3 px-5"
+                  >
+                    Enquire now
+                  </a>
+                </p>
+              </div>{' '}
+              <div class="resume-wrap ">
+                <span class="date"> other vacancy </span>
+                <h2>-</h2>
+                <span class="position">Click bellow</span>
+                <p class="mt-4">
+                  <a
+                    target="blank"
+                    href="https://docs.google.com/forms/d/e/1FAIpQLScTOa3lNROcaXbZtqs9XXf-HSuuIzm0FAaR6PTzh65hFb12Aw/viewform?usp=sf_link
+
+"
+                    class="btn btn-primary py-3 px-5"
+                  >
+                    Enquire now
+                  </a>
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -361,10 +504,10 @@ function App() {
                 </div>
                 <h3 class="mb-4">Contact Number</h3>
                 <p>
-                  <a href="tel:9074738855">HR :- 9074738855</a>
+                  <a href="tel:+919074738855">HR :-+91 9074738855</a>
                 </p>
                 <p>
-                  <a href="tel:8438973050">MD :- 8438973050</a>
+                  <a href="tel:+918438973050">MD :- +91 8438973050</a>
                 </p>
               </div>
             </div>
@@ -386,9 +529,11 @@ function App() {
                 <div class="icon d-flex align-items-center justify-content-center">
                   <img src={web} width="55px" />
                 </div>
-                <h3 class="mb-4">Website</h3>
+                <h3 class="mb-4"></h3>
                 <p>
-                  <a href="#">yoursite.com</a>
+                  <a href="https://www.linkedin.com/company/scaleup-mission-it-services/">
+                    linkedin
+                  </a>
                 </p>
               </div>
             </div>
@@ -526,8 +671,7 @@ function App() {
           </div>
           <div class="row">
             <div class="col-md-12 text-center">
-              This template is made with{' '}
-              by{' '}
+              This template is made with by{' '}
               <a href="https://www.luzidcraft.com/" target="_blank">
                 https://www.luzidcraft.com/
               </a>
