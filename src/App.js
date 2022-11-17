@@ -535,6 +535,11 @@ function App() {
                     linkedin
                   </a>
                 </p>
+                <p>
+                  <a href="https://www.instagram.com/scaleupmission/">
+                    instagram
+                  </a>
+                </p>
               </div>
             </div>
           </div>
